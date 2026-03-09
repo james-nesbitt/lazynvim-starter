@@ -1,3 +1,6 @@
+-- stylua: ignore
+if true then return {} end
+
 return {
   "yetone/avante.nvim",
   -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
@@ -25,7 +28,7 @@ return {
     provider = "ollama",
     providers = {
       ollama = {
-        model = "qwen3-coder:latest",
+        model = "gemini-3-flash-preview:cloud",
         is_env_set = true, --require("avante.providers.ollama").check_endpoint_alive,
       },
     },

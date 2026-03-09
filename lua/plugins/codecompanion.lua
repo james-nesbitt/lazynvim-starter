@@ -16,25 +16,25 @@ return {
         chat = {
           adapter = {
             name = "ollama",
-            model = "qwen3-coder:latest",
+            model = "gemini-3-flash-preview:cloud",
           },
         },
         inline = {
           adapter = {
             name = "ollama",
-            model = "qwen3-coder:latest",
+            model = "gemini-3-flash-preview:cloud",
           },
         },
         cmd = {
           adapter = {
             name = "ollama",
-            model = "qwen3-coder:latest",
+            model = "gemini-3-flash-preview:cloud",
           },
         },
         background = {
           adapter = {
             name = "ollama",
-            model = "qwen3-coder:latest",
+            model = "gemini-3-flash-preview:cloud",
           },
         },
       },
