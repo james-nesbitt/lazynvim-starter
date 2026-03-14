@@ -1,4 +1,7 @@
 {
+  "defaults": {
+    "neo_tree_auto_open": false
+  },
   "extras": [
 
   ],

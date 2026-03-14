@@ -3,7 +3,7 @@ return {
   config = function()
     require("pi").setup({
       -- Auto-connect on startup
-      auto_connect = vim.fn.executable("pi") == 1,
+      auto_connect = false,
 
       -- Require approval before applying changes
       approval_mode = true,
